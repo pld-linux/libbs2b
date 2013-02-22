@@ -7,6 +7,7 @@ License:	MIT
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/bs2b/%{name}-%{version}.tar.lzma
 # Source0-md5:	00d32ffa6461dde6a632c846da3e0a13
+Patch0:		%{name}-format.patch
 URL:		http://bs2b.sourceforge.net/
 BuildRequires:	libsndfile-devel
 BuildRequires:	libstdc++-devel
@@ -50,6 +51,7 @@ Statyczna biblioteka bs2b.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure
