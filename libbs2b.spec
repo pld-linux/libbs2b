@@ -2,7 +2,7 @@ Summary:	Bauer stereophonic-to-binaural DSP library
 Summary(pl.UTF-8):	Biblioteka DSP stereofoniczno-dwuusznego Bauera
 Name:		libbs2b
 Version:	3.1.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/bs2b/%{name}-%{version}.tar.lzma
